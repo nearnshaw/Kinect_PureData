@@ -1,0 +1,17 @@
+#N canvas 699 70 450 448 10;
+#X text 58 105 This abstraction represents input;
+#X obj 299 106 RTI_Input;
+#X text 59 209 This abstraction represents output;
+#X text 58 158 This abstraction represents logic;
+#X obj 293 325 RTI_Output;
+#X obj 298 158 RTI_Logic_1;
+#X obj 288 221 RTI_Logic_2;
+#X connect 1 0 5 0;
+#X connect 1 1 5 1;
+#X connect 1 2 5 2;
+#X connect 5 0 6 0;
+#X connect 5 1 6 1;
+#X connect 5 2 6 2;
+#X connect 6 0 4 0;
+#X connect 6 1 4 1;
+#X connect 6 2 4 2;
